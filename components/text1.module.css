@@ -1,0 +1,168 @@
+.rollinSince21 {
+  margin: 0;
+  height: 106px;
+  position: relative;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.rollinSinceLogoContainer {
+  width: 889px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.loremIpsumIs,
+.ourPhilosophy,
+.uniqueTaste {
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+  display: inline-block;
+  z-index: 3;
+}
+.ourPhilosophy,
+.uniqueTaste {
+  height: 69px;
+  font-size: inherit;
+  font-family: inherit;
+  max-width: 100%;
+}
+.loremIpsumIs {
+  align-self: stretch;
+  height: 200px;
+  font-size: var(--font-size-11xl);
+  line-height: 40px;
+  font-family: var(--font-barlow-condensed);
+}
+.input {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.group,
+.input,
+.text1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.group {
+  width: 622px;
+  flex-direction: column;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-66xl);
+}
+.text1 {
+  width: 889px;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-39xl);
+}
+.finalLogoFrameGroupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.finalLogoFrameGroupItem {
+  position: absolute;
+  top: 487px;
+  left: 1073px;
+  border-radius: var(--br-21xl);
+  width: 487px;
+  height: 501px;
+  object-fit: cover;
+  z-index: 3;
+}
+.finalLogoFrameGroup,
+.text {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.finalLogoFrameGroup {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.text {
+  top: 2662px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-273xl) var(--padding-316xl) var(--padding-245xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-84xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-71xl);
+  color: var(--color-white);
+  font-family: var(--font-londrina-solid);
+}
+@media screen and (max-width: 1350px) {
+  .text {
+    padding-right: var(--padding-148xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .rollinSince21 {
+    font-size: var(--font-size-26xl);
+  }
+  .ourPhilosophy,
+  .uniqueTaste {
+    font-size: var(--font-size-27xl);
+  }
+  .loremIpsumIs {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+  .group {
+    gap: var(--gap-66xl);
+  }
+  .text {
+    gap: var(--gap-84xl);
+    padding-right: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rollinSince21 {
+    font-size: var(--font-size-8xl);
+  }
+  .ourPhilosophy,
+  .uniqueTaste {
+    font-size: var(--font-size-16xl);
+  }
+  .loremIpsumIs {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .group {
+    gap: var(--gap-66xl);
+  }
+  .text {
+    gap: var(--gap-84xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,631 @@
+.delhiRollsfinallogoChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  z-index: 5;
+}
+.delhiRollsfinallogo {
+  height: 45px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-26xl);
+  box-sizing: border-box;
+  min-width: 315px;
+  max-width: 100%;
+}
+.delhiRolls,
+.junctions {
+  width: 14.4px;
+  height: 3.6px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.junctions {
+  width: 7.2px;
+  height: 1.8px;
+  font-size: var(--font-size-8xl-7);
+  font-family: var(--font-montserrat);
+}
+.delhiRollsText {
+  height: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupIcon,
+.sVGIDClipPaths {
+  position: absolute;
+  top: 0.1px;
+  left: -0.3px;
+  width: 100%;
+  height: 100%;
+}
+.sVGIDClipPaths {
+  top: 32.4px;
+  left: 34.9px;
+  width: 3.7px;
+  height: 3.8px;
+  z-index: 1;
+}
+.sVGIDClipPaths1 {
+  height: 7.42%;
+  width: 8.96%;
+  top: 92.58%;
+  right: -24.38%;
+  bottom: 0;
+  left: 115.42%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup1,
+.sVGIDClipPaths1,
+.vectorIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.clipPathGroup1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 16;
+}
+.vectorIcon {
+  height: 1.65%;
+  width: 0.25%;
+  top: -3.85%;
+  right: 121.39%;
+  bottom: 102.2%;
+  left: -21.64%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 24;
+}
+.clipPathGroup2,
+.clipPathGroup3,
+.vectorIcon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorIcon1 {
+  height: 1.65%;
+  width: 0.25%;
+  top: -3.85%;
+  right: -19.9%;
+  bottom: 102.2%;
+  left: 119.65%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 26;
+}
+.vectorIcon2 {
+  height: 0.82%;
+  width: 1.74%;
+  top: 100%;
+  right: 113.43%;
+  bottom: -0.82%;
+  left: -15.17%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup4,
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  overflow: hidden;
+}
+.clipPathGroup4 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 54;
+}
+.vectorIcon3 {
+  height: 0.27%;
+  width: 0.25%;
+  top: 92.31%;
+  right: -24.63%;
+  bottom: 7.42%;
+  left: 124.38%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup5 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 63;
+}
+.clipPathGroup5,
+.clipPathGroup6,
+.vectorIcon4 {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorIcon4 {
+  height: 0.82%;
+  width: 1.74%;
+  top: 100%;
+  right: -15.42%;
+  bottom: -0.82%;
+  left: 113.68%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup6 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 64;
+}
+.groupIcon1,
+.groupIcon10,
+.groupIcon11,
+.groupIcon12,
+.groupIcon13,
+.groupIcon14,
+.groupIcon15,
+.groupIcon16,
+.groupIcon17,
+.groupIcon18,
+.groupIcon19,
+.groupIcon2,
+.groupIcon20,
+.groupIcon21,
+.groupIcon22,
+.groupIcon23,
+.groupIcon24,
+.groupIcon25,
+.groupIcon26,
+.groupIcon27,
+.groupIcon28,
+.groupIcon29,
+.groupIcon3,
+.groupIcon30,
+.groupIcon31,
+.groupIcon32,
+.groupIcon33,
+.groupIcon34,
+.groupIcon35,
+.groupIcon36,
+.groupIcon37,
+.groupIcon38,
+.groupIcon39,
+.groupIcon4,
+.groupIcon40,
+.groupIcon41,
+.groupIcon42,
+.groupIcon43,
+.groupIcon44,
+.groupIcon45,
+.groupIcon46,
+.groupIcon47,
+.groupIcon48,
+.groupIcon49,
+.groupIcon5,
+.groupIcon50,
+.groupIcon51,
+.groupIcon52,
+.groupIcon53,
+.groupIcon54,
+.groupIcon55,
+.groupIcon56,
+.groupIcon57,
+.groupIcon58,
+.groupIcon59,
+.groupIcon6,
+.groupIcon60,
+.groupIcon61,
+.groupIcon62,
+.groupIcon63,
+.groupIcon64,
+.groupIcon65,
+.groupIcon66,
+.groupIcon67,
+.groupIcon68,
+.groupIcon69,
+.groupIcon7,
+.groupIcon70,
+.groupIcon71,
+.groupIcon72,
+.groupIcon73,
+.groupIcon74,
+.groupIcon75,
+.groupIcon76,
+.groupIcon77,
+.groupIcon78,
+.groupIcon79,
+.groupIcon8,
+.groupIcon80,
+.groupIcon81,
+.groupIcon82,
+.groupIcon83,
+.groupIcon84,
+.groupIcon85,
+.groupIcon86,
+.groupIcon87,
+.groupIcon88,
+.groupIcon9 {
+  position: absolute;
+  top: 0.3px;
+  left: -0.1px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.group,
+.groupContainer,
+.groupIcon89 {
+  position: absolute;
+  top: 0.3px;
+  left: -0.1px;
+  width: 100%;
+  height: 100%;
+}
+.group,
+.groupContainer {
+  top: -0.3px;
+  left: 0.1px;
+  z-index: 2;
+}
+.group {
+  top: 0.3px;
+  left: -0.1px;
+}
+.rectangleGroups {
+  width: 41px;
+  height: 37px;
+  position: relative;
+}
+.vectorIcon5 {
+  position: absolute;
+  top: 1px;
+  left: 2.3px;
+  width: 10.5px;
+  height: 11.1px;
+  z-index: 1;
+}
+.vectorGroupIcon,
+.vectorIcon6,
+.vectorIcon7 {
+  position: absolute;
+  top: 1.8px;
+  left: 12.9px;
+  width: 9.6px;
+  height: 8.7px;
+  z-index: 1;
+}
+.vectorIcon6,
+.vectorIcon7 {
+  top: 0.1px;
+  left: 22.5px;
+  width: 3.6px;
+  height: 12.2px;
+}
+.vectorIcon7 {
+  top: 0;
+  left: 26.7px;
+  width: 8.6px;
+  height: 12.3px;
+}
+.vectorIcon8,
+.vectorIcon9 {
+  position: absolute;
+  top: 3.6px;
+  left: 35.9px;
+  width: 3.6px;
+  height: 12.7px;
+}
+.vectorIcon9 {
+  top: 14.3px;
+  left: 2.7px;
+  width: 7.6px;
+  height: 9.3px;
+}
+.vectorIcon10,
+.vectorIcon11 {
+  position: absolute;
+  top: 13.6px;
+  left: 26.7px;
+  width: 3px;
+  height: 10.1px;
+}
+.vectorIcon11 {
+  left: 30.1px;
+}
+.vectorFrameIcon,
+.vectorIcon12 {
+  position: absolute;
+  top: 16.5px;
+  left: 33.3px;
+  width: 6.2px;
+  height: 7.2px;
+}
+.vectorIcon12 {
+  top: 10.7px;
+  left: 10.9px;
+  width: 15.1px;
+  height: 14.6px;
+  z-index: 2;
+}
+.vectorGroup {
+  width: 41px;
+  height: 25px;
+  position: relative;
+  margin-top: -3px;
+}
+.vector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupIcon90,
+.textFrameIcon {
+  position: absolute;
+  top: 0.3px;
+  left: 0.1px;
+  width: 100%;
+  height: 100%;
+}
+.groupIcon90 {
+  top: 1.5px;
+  left: 3.3px;
+  width: 33.5px;
+  height: 3.9px;
+  z-index: 1;
+}
+.textFrameParent {
+  width: 40px;
+  height: 6px;
+  position: relative;
+}
+.clipPathGroupInner,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.clipPathGroupInner {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-lgi);
+}
+.clipPathGroup,
+.delhiRollsLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.clipPathGroup {
+  justify-content: flex-start;
+  gap: var(--gap-95xl);
+}
+.delhiRollsLabel {
+  height: 139px;
+  width: -15px;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menuTextIcon {
+  position: absolute;
+  top: 71.3px;
+  left: 2.9px;
+  width: 21.5px;
+  height: 22.7px;
+  z-index: 1;
+}
+.menuQuickLinks,
+.menuSubscribeIcon {
+  position: absolute;
+  top: 73px;
+  left: 25px;
+  width: 19.6px;
+  height: 17.7px;
+  z-index: 2;
+}
+.menuQuickLinks {
+  top: 69.3px;
+  left: 45.3px;
+  width: 6.9px;
+  height: 25px;
+  z-index: 3;
+}
+.menuQuickLinks1,
+.vectorSubscriptionIcon {
+  position: absolute;
+  top: 69.2px;
+  left: 54px;
+  width: 17.4px;
+  height: 25.2px;
+  z-index: 1;
+}
+.menuQuickLinks1 {
+  top: 76.8px;
+  left: 73.3px;
+  width: 6.9px;
+  height: 26px;
+}
+.frameEmailInput {
+  position: absolute;
+  top: 99.2px;
+  left: 3.6px;
+  width: 15.4px;
+  height: 19px;
+}
+.menuQuickLinks2,
+.menuQuickLinks3 {
+  position: absolute;
+  top: 97.6px;
+  left: 54.1px;
+  width: 5.7px;
+  height: 20.6px;
+}
+.menuQuickLinks3 {
+  left: 61.2px;
+}
+.frameSubscribeButton {
+  position: absolute;
+  top: 103.7px;
+  left: 67.9px;
+  width: 12.5px;
+  height: 14.5px;
+  z-index: 1;
+}
+.groupIcon91,
+.vectorArrowDown {
+  position: absolute;
+  top: 0.3px;
+  left: -0.3px;
+  width: 100%;
+  height: 100%;
+}
+.vectorArrowDown {
+  top: 68.6px;
+  left: 73.1px;
+  width: 7.3px;
+  height: 7.4px;
+  z-index: 1;
+}
+.groupIcon92 {
+  position: absolute;
+  top: 0.3px;
+  left: -0.3px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frameMenuButton,
+.groupMenuItems {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.groupMenuItems {
+  width: 84px;
+  height: 77px;
+}
+.lineCopyrightIcon {
+  position: absolute;
+  top: 91.7px;
+  left: 21px;
+  width: 31.2px;
+  height: 30px;
+  z-index: 4;
+}
+.groupIcon93,
+.quickLinksFrame {
+  position: absolute;
+  top: 0;
+  left: 0.4px;
+  width: 100%;
+  height: 100%;
+}
+.groupIcon93 {
+  top: 2.4px;
+  left: 7.1px;
+  width: 69.5px;
+  height: 7.7px;
+  z-index: 1;
+}
+.vectorGroup1 {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 83px;
+  height: 12px;
+}
+.groupVector {
+  height: 132px;
+  width: 84px;
+  position: relative;
+}
+.delhiRollsFinalLogo012 {
+  height: 139px;
+  width: 232px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-73xl);
+  z-index: 1;
+}
+.delhiRollsfinallogoItem {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  z-index: 5;
+}
+.delhiRollsfinallogo1 {
+  height: 45px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-26xl);
+  box-sizing: border-box;
+  min-width: 315px;
+  max-width: 100%;
+}
+.delhiRollsfinallogoParent {
+  width: 1240px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  row-gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-36xl-7);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 925px) {
+  .delhiRolls {
+    font-size: var(--font-size-26xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .delhiRolls {
+    font-size: var(--font-size-14xl);
+  }
+  .junctions {
+    font-size: var(--font-size-3xl);
+  }
+}

@@ -1,0 +1,226 @@
+.quickLinks {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.about,
+.home,
+.location {
+  margin: 0;
+}
+.homeAboutLocationContainer {
+  align-self: stretch;
+  height: 111px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 37px;
+  font-family: var(--font-barlow-condensed);
+  display: inline-block;
+  z-index: 1;
+}
+.logoAndBranding {
+  width: 239px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.quickMenu {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.chickenTikkaRoll,
+.malaiChickenTikka,
+.schezwanPaneerMasala,
+.singlesMealDeal,
+.tandooriPaneerTikka {
+  margin: 0;
+}
+.chickenTikkaRollContainer {
+  align-self: stretch;
+  height: 185px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 37px;
+  font-family: var(--font-barlow-condensed);
+  display: inline-block;
+  z-index: 1;
+}
+.quickMenuFrame {
+  width: 277px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.subscribeToOur {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.subscribeToOur1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+  z-index: 1;
+}
+.frameChild,
+.frameItem {
+  border-radius: var(--br-31xl);
+}
+.frameChild {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-15xl) var(--padding-mid);
+  box-sizing: border-box;
+  font-family: var(--font-barlow-condensed);
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+  min-width: 250px;
+  z-index: 1;
+}
+.frameItem {
+  height: 56px;
+  width: 164px;
+  position: relative;
+  background-color: var(--color-mediumvioletred);
+  display: none;
+}
+.subscribe {
+  height: 26px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-barlow-condensed);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-24xl) var(--padding-mini)
+    var(--padding-21xl);
+  background-color: var(--color-mediumvioletred);
+  border-radius: var(--br-31xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.rectangleParent:hover {
+  background-color: var(--color-hotpink);
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-2xl);
+}
+.footerFrame,
+.frameParent,
+.linesVectorGroup,
+.subscribeToOurNewsletterAnParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribeToOurNewsletterAnParent {
+  align-self: stretch;
+  gap: var(--gap-8xl);
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-barlow-condensed);
+}
+.footerFrame,
+.linesVectorGroup {
+  width: 438px;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.footerFrame {
+  width: 1240px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-londrina-solid);
+}
+@media screen and (max-width: 1350px) {
+  .footerFrame {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 925px) {
+  .quickLinks,
+  .quickMenu,
+  .subscribeToOur {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quickLinks {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .homeAboutLocationContainer,
+  .quickMenu {
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+  }
+  .quickMenu {
+    line-height: 24px;
+  }
+  .chickenTikkaRollContainer,
+  .subscribeToOur {
+    font-size: var(--font-size-lg);
+    line-height: 30px;
+  }
+  .subscribeToOur {
+    line-height: 24px;
+  }
+  .subscribeToOur1 {
+    line-height: 26px;
+  }
+  .subscribe,
+  .subscribeToOur1 {
+    font-size: var(--font-size-lg);
+  }
+}

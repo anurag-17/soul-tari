@@ -1,0 +1,571 @@
+.deliveryInfoChild {
+  width: 1920px;
+  height: 1609px;
+  background-color: var(--color-chocolate);
+  display: none;
+}
+.bestsellers,
+.deliveryDayChild,
+.deliveryInfoChild {
+  position: relative;
+  max-width: 100%;
+}
+.bestsellers {
+  margin: 0;
+  height: 106px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.deliveryDayChild {
+  width: 370px;
+  height: 564px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.chickenTikkaRoll {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+}
+.rollsFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-24xl) 0 var(--padding-4xl);
+}
+.deliveryDay,
+.frameChild {
+  width: 370px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+}
+.deliveryDay {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-37xl) var(--padding-mid) var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-70xl);
+  z-index: 1;
+}
+.frameChild {
+  height: 564px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.tandooriPaneerTikka {
+  margin: 0;
+  height: 100px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.wepikExport20231222094106x2dIcon {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 263px;
+  height: 265px;
+  object-fit: cover;
+  z-index: 3;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 128px;
+  width: 100px;
+  height: 91px;
+  z-index: 4;
+}
+.wepikExport20231222094106x2dParent {
+  height: 273px;
+  width: 263px;
+  position: absolute;
+  margin: 0 !important;
+  right: -7px;
+  bottom: -262px;
+}
+.tandooriPaneerTikkaRollParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.div,
+.gr600 {
+  position: relative;
+  text-transform: uppercase;
+  z-index: 2;
+}
+.div {
+  line-height: 50px;
+  white-space: nowrap;
+}
+.gr600 {
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-family: var(--font-barlow-condensed);
+  color: var(--color-gray-100);
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.frameInner,
+.rectangleParent {
+  width: 370px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+}
+.rectangleParent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-37xl) var(--padding-41xl) var(--padding-29xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-258xl);
+  z-index: 1;
+}
+.frameInner {
+  height: 564px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.schezwanPaneerMasala {
+  margin: 0;
+  height: 100px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.schezwanPaneerMasalaRollVWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) var(--padding-5xl);
+}
+.wepikExport20231222093206ryhIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.div1,
+.gr6001 {
+  position: relative;
+  text-transform: uppercase;
+  z-index: 2;
+}
+.div1 {
+  line-height: 50px;
+  white-space: nowrap;
+}
+.gr6001 {
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-family: var(--font-barlow-condensed);
+  color: var(--color-gray-100);
+}
+.frameWrapper,
+.group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group {
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xl);
+}
+.deliveryHours,
+.rectangleGroup {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  align-self: stretch;
+  width: 370px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-37xl) var(--padding-mid) var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  z-index: 1;
+}
+.deliveryHours {
+  width: 1200px;
+  height: 564px;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+}
+.rectangleIcon,
+.rollNew1 {
+  max-width: 100%;
+  object-fit: cover;
+}
+.rectangleIcon {
+  width: 785px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  max-height: 100%;
+  display: none;
+  z-index: 0;
+}
+.rollNew1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.malaiChickenTikka,
+.malaiChickenTikka1,
+.newRollLaunch {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.newRollLaunch {
+  width: 270px;
+  line-height: 30px;
+  z-index: 4;
+}
+.malaiChickenTikka,
+.malaiChickenTikka1 {
+  margin: 0;
+  align-self: stretch;
+  height: 140px;
+  font-size: inherit;
+  line-height: 70px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+}
+.malaiChickenTikka1 {
+  -webkit-text-stroke: 1px #fff;
+  z-index: 4;
+  margin: -140px 0 0;
+}
+.newRollLaunchParent,
+.rollTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.rollTitle {
+  align-self: stretch;
+  align-items: flex-start;
+  font-size: var(--font-size-41xl);
+}
+.newRollLaunchParent {
+  width: 382px;
+  align-items: center;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.gr6002,
+.newsletterFrame {
+  position: relative;
+  text-transform: uppercase;
+  z-index: 4;
+}
+.newsletterFrame {
+  line-height: 50px;
+  white-space: nowrap;
+}
+.gr6002 {
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-family: var(--font-barlow-condensed);
+  color: var(--color-silver);
+}
+.paneerLink,
+.subscribeButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribeButton {
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.paneerLink {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+}
+.rectangleContainer,
+.rectangleDiv {
+  position: relative;
+  border-radius: var(--br-21xl);
+  max-width: 100%;
+}
+.rectangleContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) var(--padding-183xl) var(--padding-29xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-189xl);
+  background-image: url(/rectangle-9@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 510px;
+  z-index: 1;
+}
+.rectangleDiv {
+  width: 370px;
+  height: 564px;
+  background-color: var(--color-white);
+  display: none;
+}
+.singlesMealDeal {
+  margin: 0;
+  width: 292px;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.frameDiv {
+  height: 564px;
+  width: 370px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-37xl) var(--padding-mid) var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-70xl);
+  min-width: 370px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.contactSection,
+.deliveryHours1,
+.deliveryInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+}
+.deliveryHours1 {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.contactSection,
+.deliveryInfo {
+  width: 1200px;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.deliveryInfo {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 1224px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-chocolate);
+  align-items: center;
+  padding: var(--padding-43xl) var(--padding-43xl) var(--padding-161xl);
+  box-sizing: border-box;
+  gap: var(--gap-69xl);
+  text-align: center;
+  font-size: var(--font-size-71xl);
+  color: var(--color-white);
+  font-family: var(--font-londrina-solid);
+}
+@media screen and (max-width: 1350px) {
+  .frameDiv {
+    flex: 1;
+  }
+  .deliveryHours1 {
+    flex-wrap: wrap;
+  }
+  .deliveryInfo {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .bestsellers {
+    font-size: var(--font-size-26xl);
+  }
+  .chickenTikkaRoll,
+  .div,
+  .div1,
+  .schezwanPaneerMasala,
+  .tandooriPaneerTikka {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .deliveryHours {
+    gap: var(--gap-26xl);
+  }
+  .malaiChickenTikka,
+  .malaiChickenTikka1 {
+    font-size: var(--font-size-29xl);
+    line-height: 56px;
+  }
+  .newsletterFrame {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .rectangleContainer {
+    gap: var(--gap-189xl);
+    padding-right: var(--padding-82xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .singlesMealDeal {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .frameDiv {
+    min-width: 100%;
+  }
+  .contactSection,
+  .deliveryHours1 {
+    gap: var(--gap-26xl);
+  }
+  .deliveryInfo {
+    gap: var(--gap-69xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bestsellers {
+    font-size: var(--font-size-8xl);
+  }
+  .chickenTikkaRoll,
+  .div,
+  .tandooriPaneerTikka {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .gr600 {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .div1,
+  .schezwanPaneerMasala {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .gr6001,
+  .newRollLaunch {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .malaiChickenTikka,
+  .malaiChickenTikka1 {
+    font-size: var(--font-size-17xl);
+    line-height: 42px;
+  }
+  .newsletterFrame {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .gr6002 {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .rectangleContainer {
+    gap: var(--gap-189xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .singlesMealDeal {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .frameDiv {
+    gap: var(--gap-70xl);
+  }
+  .deliveryInfo {
+    gap: var(--gap-69xl);
+  }
+}

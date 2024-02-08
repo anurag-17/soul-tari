@@ -1,0 +1,857 @@
+.frameChild,
+.lineFrameChild {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.lineFrameChild {
+  width: 1920px;
+  height: 1228px;
+  background-color: var(--color-chocolate);
+  z-index: 0;
+}
+.frameChild {
+  height: 135px;
+  width: 1864px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+}
+.about,
+.home,
+.locations {
+  height: 26px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 3;
+}
+.delhiRollsLogo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-140xl) var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-23xl);
+  max-width: 100%;
+}
+.delhiRolls,
+.junctions {
+  position: absolute;
+  top: 0.3px;
+  left: -0.2px;
+  display: inline-block;
+  width: 10.9px;
+  height: 2.7px;
+  white-space: nowrap;
+}
+.junctions {
+  top: 2.5px;
+  left: 1px;
+  font-size: var(--font-size-8xl-7);
+  font-family: var(--font-montserrat);
+  width: 5.5px;
+  height: 1.4px;
+}
+.delhiRollsParent {
+  height: 4px;
+  width: 11px;
+  position: relative;
+}
+.delhiRollsFinalLogo011Inner {
+  width: -47px;
+  height: -29px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+}
+.uniqueTasteFrame,
+.vectorIcon {
+  position: absolute;
+  top: 0.8px;
+  left: -0.3px;
+  width: 8px;
+  height: 8.4px;
+  z-index: 1;
+}
+.vectorIcon {
+  top: 1.4px;
+  left: 7.8px;
+  width: 7.3px;
+  height: 6.6px;
+}
+.rollinSinceFrame,
+.vectorIcon1 {
+  position: absolute;
+  top: 0.1px;
+  left: 15.1px;
+  width: 2.7px;
+  height: 9.2px;
+  z-index: 1;
+}
+.vectorIcon1 {
+  left: 18.2px;
+  width: 6.5px;
+  height: 9.3px;
+}
+.quickLinksFrame,
+.rollinSinceFrame1 {
+  position: absolute;
+  top: 2.8px;
+  left: 25.2px;
+  width: 2.7px;
+  height: 9.6px;
+}
+.quickLinksFrame {
+  top: 10.9px;
+  left: 0;
+  width: 5.8px;
+  height: 7px;
+}
+.rollinSinceFrame2,
+.rollinSinceFrame3 {
+  position: absolute;
+  top: 10.3px;
+  left: 18.3px;
+  width: 2.3px;
+  height: 7.6px;
+}
+.rollinSinceFrame3 {
+  left: 20.9px;
+}
+.contentFrameIcon {
+  position: absolute;
+  top: 12.5px;
+  left: 23.3px;
+  width: 4.7px;
+  height: 5.4px;
+}
+.rectangleShapeIcon {
+  position: absolute;
+  top: 8.2px;
+  left: 6.3px;
+  width: 11.5px;
+  height: 11px;
+  z-index: 2;
+}
+.deliveryHoursGroup {
+  position: absolute;
+  top: 25px;
+  left: 1px;
+  width: 28px;
+  height: 19px;
+}
+.groupIcon,
+.lineNodeIcon {
+  position: absolute;
+  top: 0.4px;
+  left: -0.1px;
+  width: 30.2px;
+  height: 4.6px;
+}
+.groupIcon {
+  top: 1.4px;
+  left: 2.3px;
+  width: 25.4px;
+  height: 3px;
+  z-index: 3;
+}
+.textNode {
+  position: absolute;
+  top: 43px;
+  left: 0;
+  width: 30px;
+  height: 5px;
+}
+.groupIcon1,
+.vectorIcon2 {
+  position: absolute;
+  top: 0.2px;
+  left: -0.5px;
+  width: 100%;
+  height: 100%;
+}
+.vectorIcon2 {
+  top: 24.5px;
+  left: 26.4px;
+  width: 2.8px;
+  height: 2.9px;
+  z-index: 1;
+}
+.vectorIcon3 {
+  height: 7.27%;
+  width: 9.18%;
+  top: 92.36%;
+  right: -24.59%;
+  bottom: 0.36%;
+  left: 115.41%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup,
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  overflow: hidden;
+}
+.clipPathGroup {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 16;
+}
+.vectorIcon4 {
+  height: 1.45%;
+  width: 0.33%;
+  top: -4%;
+  right: 121.31%;
+  bottom: 102.55%;
+  left: -21.64%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 24;
+}
+.clipPathGroup1,
+.clipPathGroup2,
+.vectorIcon5 {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorIcon5 {
+  height: 1.45%;
+  width: 0.33%;
+  top: -4%;
+  right: -20%;
+  bottom: 102.55%;
+  left: 119.67%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 26;
+}
+.vectorIcon6 {
+  height: 0.73%;
+  width: 1.64%;
+  top: 99.64%;
+  right: 113.77%;
+  bottom: -0.36%;
+  left: -15.41%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup3,
+.vectorIcon6,
+.vectorIcon7 {
+  position: absolute;
+  overflow: hidden;
+}
+.clipPathGroup3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 54;
+}
+.vectorIcon7 {
+  height: 0.36%;
+  width: 0.33%;
+  top: 92%;
+  right: -24.59%;
+  bottom: 7.64%;
+  left: 124.26%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup4 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 63;
+}
+.clipPathGroup4,
+.clipPathGroup5,
+.vectorIcon8 {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorIcon8 {
+  height: 0.73%;
+  width: 1.64%;
+  top: 99.64%;
+  right: -15.41%;
+  bottom: -0.36%;
+  left: 113.77%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.clipPathGroup5 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 64;
+}
+.groupIcon10,
+.groupIcon11,
+.groupIcon12,
+.groupIcon13,
+.groupIcon14,
+.groupIcon15,
+.groupIcon16,
+.groupIcon17,
+.groupIcon18,
+.groupIcon19,
+.groupIcon2,
+.groupIcon20,
+.groupIcon21,
+.groupIcon22,
+.groupIcon23,
+.groupIcon24,
+.groupIcon25,
+.groupIcon26,
+.groupIcon27,
+.groupIcon28,
+.groupIcon29,
+.groupIcon3,
+.groupIcon30,
+.groupIcon31,
+.groupIcon32,
+.groupIcon33,
+.groupIcon34,
+.groupIcon35,
+.groupIcon36,
+.groupIcon37,
+.groupIcon38,
+.groupIcon39,
+.groupIcon4,
+.groupIcon40,
+.groupIcon41,
+.groupIcon42,
+.groupIcon43,
+.groupIcon44,
+.groupIcon45,
+.groupIcon46,
+.groupIcon47,
+.groupIcon48,
+.groupIcon49,
+.groupIcon5,
+.groupIcon50,
+.groupIcon51,
+.groupIcon52,
+.groupIcon53,
+.groupIcon54,
+.groupIcon55,
+.groupIcon56,
+.groupIcon57,
+.groupIcon58,
+.groupIcon59,
+.groupIcon6,
+.groupIcon60,
+.groupIcon61,
+.groupIcon62,
+.groupIcon63,
+.groupIcon64,
+.groupIcon65,
+.groupIcon66,
+.groupIcon67,
+.groupIcon68,
+.groupIcon69,
+.groupIcon7,
+.groupIcon70,
+.groupIcon71,
+.groupIcon72,
+.groupIcon73,
+.groupIcon74,
+.groupIcon75,
+.groupIcon76,
+.groupIcon77,
+.groupIcon78,
+.groupIcon79,
+.groupIcon8,
+.groupIcon80,
+.groupIcon81,
+.groupIcon82,
+.groupIcon83,
+.groupIcon84,
+.groupIcon85,
+.groupIcon86,
+.groupIcon87,
+.groupIcon88,
+.groupIcon89,
+.groupIcon9 {
+  position: absolute;
+  top: 0.4px;
+  left: -0.3px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.group,
+.groupIcon90,
+.groupParent {
+  position: absolute;
+  top: 0.4px;
+  left: -0.3px;
+  width: 100%;
+  height: 100%;
+}
+.group,
+.groupParent {
+  top: -0.4px;
+  left: 0.3px;
+  z-index: 2;
+}
+.group {
+  top: 0.4px;
+  left: -0.3px;
+}
+.frameNode {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 31px;
+  height: 28px;
+}
+.locationText {
+  height: 48px;
+  width: 31px;
+  position: relative;
+}
+.groupIcon91 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.2px;
+  right: -0.4px;
+  bottom: 0.2px;
+  left: 0.4px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon92,
+.vectorIcon9 {
+  position: absolute;
+  top: 51.8px;
+  left: 56.1px;
+  width: 5.5px;
+  height: 5.6px;
+  z-index: 1;
+}
+.groupIcon92 {
+  top: 0.2px;
+  left: 0.4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+.vectorParent {
+  height: 58px;
+  flex: 1;
+  position: relative;
+}
+.groupGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.contactlessFrameIcon {
+  position: absolute;
+  top: 1.9px;
+  left: 2.4px;
+  width: 16.3px;
+  height: 17.2px;
+  z-index: 1;
+}
+.locationFrameIcon,
+.titleFrameIcon {
+  position: absolute;
+  top: 3.1px;
+  left: 19.1px;
+  width: 14.9px;
+  height: 13.4px;
+  z-index: 1;
+}
+.titleFrameIcon {
+  top: 0.3px;
+  left: 34.5px;
+  width: 5.3px;
+  height: 18.9px;
+  z-index: 2;
+}
+.delhiRollsFrame,
+.titleFrameIcon1 {
+  position: absolute;
+  top: 0.3px;
+  left: 41.1px;
+  width: 13.2px;
+  height: 19px;
+  z-index: 1;
+}
+.titleFrameIcon1 {
+  top: 6px;
+  left: 55.8px;
+  width: 5.3px;
+  height: 19.7px;
+}
+.vectorIcon10 {
+  position: absolute;
+  top: 23px;
+  left: 2.9px;
+  width: 11.7px;
+  height: 14.4px;
+}
+.titleFrameIcon2,
+.titleFrameIcon3 {
+  position: absolute;
+  top: 21.7px;
+  left: 41.2px;
+  width: 4.3px;
+  height: 15.6px;
+}
+.titleFrameIcon3 {
+  left: 46.6px;
+}
+.clipPathGroup6,
+.lineFrameIcon {
+  position: absolute;
+  top: 26.3px;
+  left: 51.7px;
+  width: 9.5px;
+  height: 11px;
+}
+.lineFrameIcon {
+  top: 17.3px;
+  left: 16.1px;
+  width: 23.6px;
+  height: 22.6px;
+  z-index: 3;
+}
+.quickLinksGroup {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  margin-top: -3px;
+}
+.quickMenuFrame {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -0.3px;
+  right: 0.1px;
+  bottom: 0.1px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon93 {
+  position: absolute;
+  top: 1.5px;
+  left: 5.1px;
+  width: 52.8px;
+  height: 5.8px;
+  z-index: 1;
+}
+.quickLinksFrame1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.quickLinksFrameWrapper {
+  align-self: stretch;
+  height: 9px;
+  position: relative;
+  margin-top: -3px;
+}
+.frameParent {
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.locationTextParent {
+  width: 166px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.delhiRollsFinalLogo011,
+.delhiRollsFinalLogo011Child {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.delhiRollsFinalLogo011Child {
+  width: 123px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0;
+}
+.delhiRollsFinalLogo011 {
+  height: 105px;
+  width: 176px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+  gap: var(--gap-15xl);
+  z-index: 3;
+  font-size: var(--font-size-36xl-7);
+  font-family: var(--font-inter);
+}
+.orderByUbereats {
+  height: 26px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 3;
+}
+.frameItem {
+  height: 56px;
+  width: 195px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-mediumvioletred);
+  display: none;
+}
+.viewFullMenu {
+  height: 26px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-barlow-condensed);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleGroup,
+.rectangleParent,
+.subscribeFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-9xl) var(--padding-mini)
+    var(--padding-15xl);
+  background-color: var(--color-mediumvioletred);
+  flex: 1;
+  border-radius: var(--br-31xl);
+  justify-content: flex-end;
+  white-space: nowrap;
+  z-index: 3;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-hotpink);
+}
+.rectangleParent,
+.subscribeFrame {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.subscribeFrame {
+  width: 411px;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-42xl);
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-37xl);
+  gap: var(--gap-xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-barlow-condensed);
+}
+.delicious,
+.kathi {
+  margin: 0;
+}
+.deliciousKathiRollContainer {
+  height: 782px;
+  position: relative;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  display: inline-block;
+  z-index: 2;
+}
+.wrapperVector1Child {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.817);
+}
+.wrapperVector1 {
+  position: absolute;
+  top: 389px;
+  left: 21px;
+  width: 978px;
+  height: 377px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wepikExport20231222091818bkbIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1003px;
+  height: 743px;
+  object-fit: cover;
+  z-index: 4;
+}
+.wrapperVector1Parent {
+  height: 766px;
+  width: 1003px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -64px;
+  left: 353px;
+}
+.deliciousKathiRollParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameWrapper,
+.lineFrameInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.lineFrameInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+}
+.image1Icon,
+.image2Icon {
+  width: 580px;
+  height: 1000px;
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+  z-index: 3;
+}
+.image1Icon {
+  right: -125px;
+  bottom: 54px;
+}
+.image2Icon {
+  bottom: -327px;
+  left: -164px;
+}
+.lineFrame {
+  flex: 1;
+  background-color: var(--color-chocolate);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-9xl) var(--padding-163xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-82xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-311xl-9);
+  color: var(--color-navajowhite);
+  font-family: var(--font-londrina-solid);
+}
+@media screen and (max-width: 1350px) {
+  .rectangleParent {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .lineFrame {
+    gap: var(--gap-82xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-99xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .delhiRollsLogo {
+    display: none;
+  }
+  .deliciousKathiRollContainer {
+    font-size: var(--font-size-113xl);
+  }
+  .lineFrame {
+    gap: var(--gap-82xl);
+    padding-bottom: var(--padding-58xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .delhiRollsLogo {
+    gap: var(--gap-23xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .subscribeFrame {
+    gap: var(--gap-42xl);
+  }
+  .deliciousKathiRollContainer {
+    font-size: var(--font-size-64xl);
+  }
+}

@@ -1,0 +1,257 @@
+.rectangleChild {
+  height: 913px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-orange);
+  display: none;
+  max-width: 100%;
+}
+.contactlessDeliveryAvailable,
+.location {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.contactlessDeliveryAvailable {
+  align-self: stretch;
+  height: 300px;
+  line-height: 100px;
+  display: inline-block;
+}
+.location {
+  line-height: 40px;
+}
+.delhiRollsJunction {
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 32px;
+  font-family: var(--font-barlow-condensed);
+  display: inline-block;
+  z-index: 1;
+}
+.text,
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  align-self: stretch;
+  gap: var(--gap-4xs);
+}
+.textWrapper {
+  height: 196px;
+  width: 199px;
+}
+.frameChild {
+  height: 200px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.deliveryHours {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.mondaySaturday {
+  margin: 0;
+  font-weight: 600;
+}
+.am11pm {
+  margin: 0;
+}
+.mondaySaturdayContainer {
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 32px;
+  display: inline-block;
+  z-index: 1;
+  font-family: var(--font-barlow-condensed);
+}
+.text1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.sunday {
+  font-weight: 600;
+}
+.am08pm,
+.sunday {
+  margin: 0;
+}
+.sunday11amContainer {
+  width: 187px;
+  height: 64px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 32px;
+  display: inline-block;
+  z-index: 1;
+  font-family: var(--font-barlow-condensed);
+}
+.frameParent,
+.textParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.textParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-lgi);
+  min-width: 157px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-15xl);
+  font-size: var(--font-size-11xl);
+}
+.contactlessDeliveryAvailableParent {
+  width: 509px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-33xl);
+  min-width: 509px;
+  max-width: 100%;
+}
+.textIcon {
+  align-self: stretch;
+  height: 618px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangle,
+.textContainer {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.textContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  min-width: 380px;
+}
+.rectangle {
+  align-self: stretch;
+  background-color: var(--color-orange);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-112xl) var(--padding-341xl) var(--padding-130xl)
+    var(--padding-340xl);
+  gap: var(--gap-89xl);
+  text-align: left;
+  font-size: var(--font-size-71xl);
+  color: var(--color-white);
+  font-family: var(--font-londrina-solid);
+}
+@media screen and (max-width: 1825px) {
+  .contactlessDeliveryAvailableParent {
+    flex: 1;
+  }
+  .rectangle {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .contactlessDeliveryAvailableParent,
+  .textContainer {
+    min-width: 100%;
+  }
+  .rectangle {
+    gap: var(--gap-89xl);
+    padding-left: var(--padding-160xl);
+    padding-right: var(--padding-161xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .contactlessDeliveryAvailable {
+    font-size: var(--font-size-26xl);
+    line-height: 60px;
+  }
+  .location {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+  .frameChild {
+    width: 100%;
+    height: 1px;
+  }
+  .deliveryHours {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: var(--gap-15xl);
+  }
+  .contactlessDeliveryAvailableParent {
+    gap: var(--gap-33xl);
+  }
+  .rectangle {
+    gap: var(--gap-89xl);
+    padding: var(--padding-66xl) var(--padding-71xl) var(--padding-78xl)
+      var(--padding-70xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactlessDeliveryAvailable {
+    font-size: var(--font-size-8xl);
+    line-height: 40px;
+  }
+  .location {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .delhiRollsJunction,
+  .deliveryHours {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .deliveryHours {
+    line-height: 24px;
+  }
+  .mondaySaturdayContainer,
+  .sunday11amContainer {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+  .rectangle {
+    padding: var(--padding-36xl) var(--padding-xl) var(--padding-44xl);
+    box-sizing: border-box;
+  }
+}
